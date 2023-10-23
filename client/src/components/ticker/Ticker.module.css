@@ -1,0 +1,35 @@
+.wrapper{
+   background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  padding: 10px;
+}
+.positive{
+  width: 30px;
+  height: 30px;
+
+  border-radius: 5px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase{
+  background-color: lightgreen;
+}
+.decrease{
+  background-color: lightcoral;
+}
+.increasePrice{
+  color: green;
+}
+.decreasePrice{
+  color: red;
+}
+.value{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 5px;
+}

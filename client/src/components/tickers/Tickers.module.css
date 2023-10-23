@@ -1,0 +1,7 @@
+.wrapperTickers{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
